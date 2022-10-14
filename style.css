@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url();
+}
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    font-family: "Muli", "Opens Sans", sans-serif;
+    /* font-weight: 100; */
+}
+
+article {
+    padding: 10px;
+    margin: 50px auto;
+    width: 900px;
+}
+section {
+    margin-bottom: 64px;
+}
+h1 {
+    font-size: 4em;
+    margin: 0.33em 0;
+    font-weight: 100;
+    margin-bottom: 0.1em;
+}
+h2 {
+    font-size: 2.5em;
+    margin: 0.33em 0;
+    font-weight: 100;
+    margin-top: 0.1em;
+}
+h4 {
+    font-size: 1em;
+    margin: 0.83em 0;
+    margin-bottom: 0.1em;
+}
+p {
+    font-size: 1em;
+    margin: 0.83em 0;
+    margin-top: 0.1em;
+}
+blockquote {
+    line-height: 1.5;
+}
+figure {
+    float: left;
+    shape-outside: polygon(0 0, 58% 0, 85% 88%, 0 94%);
+    margin-top: -40px;
+    margin-left: -30px;
+    height: 300px;
+}
+figure img {
+    float: left;
+    margin-top: -40px;
+    height: 350px;
+}
+.three-column {
+    width: 100%;
+    display: flex;
+}
+.three-column div {
+    width: calc(100% / 3);
+    padding: 0 14px;
+}
+.left-text {
+    display: flex;
+    float:left;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+.left-text p {
+    margin-right: 10px;
+}
