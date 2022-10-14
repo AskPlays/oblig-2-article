@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Open Sans';
-    src: url();
+    src: url();/*font går her*/
 }
 * {
     box-sizing: border-box;
