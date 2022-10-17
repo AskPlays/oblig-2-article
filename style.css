@@ -70,6 +70,11 @@ blockquote {
 }
 a {
     font-size: 2em;
+    font-family: "Muli", "Opens Sans", sans-serif;
+    text-decoration: none;
+}
+a:focus, a:active {
+    color: #339;
 }
 .three-column {
     width: 100%;
