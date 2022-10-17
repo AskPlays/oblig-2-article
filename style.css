@@ -52,6 +52,7 @@ blockquote {
     line-height: 1.5;
 }
 figure {
+    position: relative;
     float: left;
     shape-outside: polygon(0 0, 58% 0, 85% 88%, 0 94%);
     margin-top: -40px;
@@ -62,6 +63,13 @@ figure img {
     float: left;
     margin-top: -40px;
     height: 350px;
+}
+.image-text {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    font-family: "Vegur", "Opens Sans", sans-serif;
+    font-size: 0.9em;
 }
 blockquote {
     margin-right: 0px;
