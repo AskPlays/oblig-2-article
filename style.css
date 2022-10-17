@@ -10,7 +10,6 @@ html, body {
     width: 100%;
     margin: 0;
     font-family: "times new roman", "Opens Sans", sans-serif;
-    /* font-weight: 100; */
 }
 
 article {
@@ -19,7 +18,11 @@ article {
     width: 900px;
 }
 section {
-    margin-bottom: 96px;
+    /* margin-bottom: 96px; */
+}
+hr {
+    height: 64px;
+    border: none;
 }
 h1 {
     font-size: 4em;
