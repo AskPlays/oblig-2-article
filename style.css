@@ -17,9 +17,6 @@ article {
     margin: 50px auto;
     width: 900px;
 }
-section {
-    /* margin-bottom: 96px; */
-}
 hr {
     height: 64px;
     border: none;
@@ -72,9 +69,6 @@ a {
     font-size: 2em;
     font-family: "Muli", "Opens Sans", sans-serif;
     text-decoration: none;
-}
-a:focus, a:active {
-    color: #339;
 }
 .three-column {
     width: 100%;
