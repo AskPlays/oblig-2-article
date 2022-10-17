@@ -94,13 +94,21 @@ a {
 }
 
 .right {
-    float: right;
+    text-align: end;
     flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: end;
 }
 
 .bottom-text {
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    font-size: 1.15em;
+    opacity: 0.7;
+    font-family: "Muli", "Opens Sans", sans-serif;;
+}
+
+.space {
+    margin: 0 10px;
 }
