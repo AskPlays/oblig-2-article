@@ -92,3 +92,15 @@ a {
 .weak {
     opacity: 0.8;
 }
+
+.right {
+    float: right;
+    flex: 1;
+}
+
+.bottom-text {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
